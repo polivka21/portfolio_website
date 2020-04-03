@@ -214,7 +214,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/machu.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -225,7 +225,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/machu.jpg") no-repeat 20% 22%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
@@ -315,11 +315,14 @@ img {
 #about-a .award-3 {
   grid-area: aw3; }
 
+  
+
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
   color: #ffbc00;
-  margin: 1rem; }
+  margin: 1rem; 
+}
 
 #about-b .progress {
   overflow: hidden;
@@ -335,7 +338,7 @@ img {
 
 #about-c .about-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem; }
   #about-c .about-logos img {
     width: 70%; }
@@ -407,7 +410,11 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
-      padding: 0.5rem; }
+      padding: 0.5rem; 
+    color: #fff
+    }
+      
+      
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
 
